@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #FF78B9;
+}
+
+#wrapper {
+    overflow-x: hidden;
+ }
+
+#sidebar-wrapper .sidebar-heading {
+  padding: 0.875rem 1.25rem;
+  font-size: 1.2rem;
+}
+
+#sidebar-wrapper .list-group {
+  width: 15rem;
+  height: 100%;
+  position: fixed;
+}
+
+#page-content-wrapper {
+  min-width: 100vw;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+  margin-left: 0;
+}
+
+.list-group {
+  display: flex;
+  justify-content: center;
+  border: 0.25px solid grey;
+}
+
+.list-group-flush>.list-group-item {
+  padding: 40px;
+  font-family: 'McLaren', cursive;
+  font-size: 18px;
+  color: black;
+  letter-spacing: 3px;
+}
+
+.list-group-flush>.list-group-item:hover {
+  background-color: #ffd1dc !important;
+}
+
+#navbar {
+  visibility: hidden;
+}
+
+@media (min-width: 768px) {
+  #sidebar-wrapper {
+    margin-left: 0;
+  }
+
+  #page-content-wrapper {
+    min-width: 0;
+    width: 100%;
+  }
+
+  #wrapper.toggled #sidebar-wrapper {
+    margin-left: -15rem;
+  }
+  #about .card-img-top{
+    margin-top: 120px;
+  }
+}
+
+@media (max-width: 1024px) {
+  #navbar {
+    visibility: visible;
+  }
+
+  #sidebar-wrapper {
+    display: none;
+  }
+}
+
+/* -- Page Content -- */
+.card {
+  max-width: 950px;
+  max-height: 400px;
+  margin: 70px auto;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+.display-4.main-2 {
+  font-size: 3rem;
+}
+.card-img-top {
+  object-fit: cover;
+  width: auto;
+}
+.heading {
+  font-family: 'Sacramento', cursive;
+  word-spacing: 10px;
+}
+#about{
+  max-height: 900px;
+}
+
+@media (max-width: 768px) {
+  .display-4 {
+      font-size: 2rem;
+      text-align: center;
+      margin-top: 1rem;
+  }
+  .main-2 {
+      margin: 1.3rem;
+  }
+}
