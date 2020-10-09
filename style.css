@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin: 0;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -10,11 +11,6 @@ body {
 #wrapper {
     overflow-x: hidden;
  }
-
-#sidebar-wrapper .sidebar-heading {
-  padding: 0.875rem 1.25rem;
-  font-size: 1.2rem;
-}
 
 #sidebar-wrapper .list-group {
   width: 15rem;
@@ -68,6 +64,9 @@ body {
   #about .card-img-top{
     margin-top: 120px;
   }
+  #join .card-img-top{
+    margin-top: 200px;
+  }
 }
 
 @media (max-width: 1024px) {
@@ -101,6 +100,10 @@ body {
 #about{
   max-height: 900px;
 }
+#typeform{
+  width: 100%; 
+  height: 400px;
+}
 
 @media (max-width: 768px) {
   .display-4 {
@@ -110,5 +113,8 @@ body {
   }
   .main-2 {
       margin: 1.3rem;
+  }
+  #about p {
+    margin: 0 10px;
   }
 }

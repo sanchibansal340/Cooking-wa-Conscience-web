@@ -40,7 +40,7 @@
             <a href="#about" class="list-group-item list-group-item-action bg-light">About Us</a>
             <a href="#" class="list-group-item list-group-item-action bg-light">Upcoming Classes</a>
             <a href="#" class="list-group-item list-group-item-action bg-light">Future Chapter Locations</a>
-            <a href="#" class="list-group-item list-group-item-action bg-light">Join the Organisation</a>
+            <a href="#join" class="list-group-item list-group-item-action bg-light">Join the Organisation</a>
             <a href="#" class="list-group-item list-group-item-action bg-light">Contact Us</a>
         </div>
         </div>
@@ -49,7 +49,7 @@
         <!-- Page Content -->
         <div id="page-content-wrapper">
 
-        <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom" id="navbar">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom fixed-top" id="navbar">
 
             <button 
                 class="navbar-toggler" 
@@ -68,11 +68,13 @@
                     <li class="nav-item"><a href="#about" class="nav-link">About Us</a></li>
                     <li class="nav-item"><a href="#" class="nav-link">Upcoming Classes</a></li>
                     <li class="nav-item"><a href="#" class="nav-link">Future Chapter Locations</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Join the Organisation</a></li>
+                    <li class="nav-item"><a href="#join" class="nav-link">Join the Organisation</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Contact Us</a></li>
                 </ul>
             </div>
         </nav>
 
+        <!-- Home -->
         <div class="container-fluid">
             <div class="card my-5" id="home">
                 <div class="row">
@@ -83,7 +85,9 @@
                         </h2>
                     </div>
                     <div class="col-md-6">
-                        <img src="https://image.freepik.com/free-vector/focused-people-studying-online-school_74855-5834.jpg" class="img-fluid mb-3 card-img-top" />
+                        <img 
+                            src="https://image.freepik.com/free-vector/focused-people-studying-online-school_74855-5834.jpg" 
+                            class="img-fluid mb-3 card-img-top" />
                     </div>
                     <a href="#" class="stretched-link"></a> <!-- LINK TO BE ADDED -->
                 </div>
@@ -133,6 +137,70 @@
             </div>
         </div>
 
+        <!-- Join Us - Description -->
+        <div class="container-fluid">
+            <div class="card my-5 mh-100" id="join">
+                <div class="row">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-6">
+                        <img 
+                            src="https://image.freepik.com/free-vector/happy-people-holding-hiring-banner-recruitment-concept-with-people-characters-agency-interview-join-our-team-template-web-landing-page-presentation-social-media_1016-757.jpg" 
+                            class="img-fluid card-img-top" />
+                    </div>
+                    <div class="col-md-5">
+                        <h2 class="main-2 display-4 my-4">
+                            Join Us
+                        </h2>
+
+                        <div class="role-desc mx-2">
+                            <h3 class="heading">
+                                Are you a Social Bird?
+                            </h3>
+                            <p class="mb-5">
+                                We are currently looking for people to work in Social Media Management, 
+                                who would help us time posts, and expand our social media 
+                                across more platforms. 
+                            </p>
+    
+                            <h3 class="heading">
+                                Or are you a Digital Queen? 
+                            </h3>
+                            <p class="mb-5">
+                                We are also looking for an Ambassador, whose role it would be to endorse our posts/events to other people. 
+                            </p>
+                            
+                            <h3 class="heading">
+                                Or do you have awesome leadership skills? 
+                            </h3>
+                            <p class="mb-4">
+                                We are looking for a chapter leader who would run cooking 
+                                classes in her area. 
+                                <br/><br/>
+                                We would send you the ingredients and recipes, 
+                                but it would be your responsibility to find a group of girls to 
+                                teach (such as setting up a club at your local elementary school).
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md">
+                        <h4 class="text-center mb-5">
+                            If any of this feels like you, then don't forget to apply below!
+                            <i style="font-size:30px" class="fa">&#8595;</i>
+                        </h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Join us - Form -->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-5 mx-auto my-5">
+                    <div id="typeform"></div>
+                </div>
+            </div>
+        </div>
+
     <!-- Bootstrap core JavaScript -->
     <script 
         src="https://code.jquery.com/jquery-3.4.1.slim.min.js" 
@@ -148,6 +216,19 @@
         src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" 
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" 
         crossorigin="anonymous">
+    </script>
+
+    <!-- Embed.js - Typeform -->
+    <script src="https://embed.typeform.com/embed.js"></script>
+    <script type="text/javascript">
+        window.addEventListener("DOMContentLoaded", function() {
+      var el = document.getElementById("typeform");
+      window.typeformEmbed.makeWidget(el, "https://egutstadt.typeform.com/to/RtlYasrh", {
+        hideHeaders: false,
+        hideFooter: false,
+        buttonText: "Let's Start Cooking! 🍜"
+      });
+    });
     </script>
 
 </body>
