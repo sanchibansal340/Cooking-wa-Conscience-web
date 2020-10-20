@@ -5,7 +5,10 @@
 }
 
 body {
-    background-color: #FF78B9;
+    background: url('./cwc-bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 #wrapper {
@@ -33,9 +36,9 @@ body {
 }
 
 .list-group-flush>.list-group-item {
-  padding: 40px;
+  padding: 50px;
   font-family: 'McLaren', cursive;
-  font-size: 18px;
+  font-size: 20px;
   color: black;
   letter-spacing: 3px;
 }
