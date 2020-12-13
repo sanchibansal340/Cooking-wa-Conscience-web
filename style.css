@@ -39,7 +39,7 @@ body {
   visibility: hidden;
 }
 .sidebar img{
-  height: 13em;
+  height: 14em;
   width: 14.85em;
   margin: 0;
 }
@@ -82,8 +82,8 @@ body {
   margin: 70px auto;
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
 }
-.display-4.main-2 {
-  font-size: 3rem;
+.h3-responsive{
+  font-weight: 400;
 }
 .card-img-top {
   object-fit: cover;

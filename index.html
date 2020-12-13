@@ -30,6 +30,32 @@
 
 <body>
 
+    <!-- Modal -->
+    <div class="modal fade" 
+        id="modal" 
+        tabindex="-1" 
+        role="dialog" 
+        aria-labelledby="modal" 
+        aria-hidden="true"
+    >
+        <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            <div class="modal-body">
+                <img src="./class1.jpg" 
+                    height="100" 
+                    class="img-fluid text-center"
+                    alt="Cooking with a Conscience Class 1" 
+                />
+            </div>
+        </div>
+        </div>
+    </div>
+
     <div class="d-flex" id="wrapper">
 
         <!-- Sidebar -->
@@ -85,8 +111,8 @@
                 <div class="row">
                     <div class="col-md-1"></div>
                     <div class="col-md-5 my-auto">
-                        <h2 class="display-4 main-2">
-                            Online Classes!
+                        <h2 class="h3-responsive">
+                            Register for Online Class
                         </h2>
                     </div>
                     <div class="col-md-6">
@@ -94,7 +120,7 @@
                             src="https://image.freepik.com/free-vector/focused-people-studying-online-school_74855-5834.jpg" 
                             class="img-fluid mb-3 card-img-top" />
                     </div>
-                    <a href="#" class="stretched-link"></a> <!-- LINK TO BE ADDED -->
+                    <a href="https://egutstadt.typeform.com/to/p7hEiAzy" target="_blank" class="stretched-link"></a>
                 </div>
             </div>
         </div>
@@ -235,6 +261,12 @@
         src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" 
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" 
         crossorigin="anonymous">
+    </script>
+
+    <script>
+        $(window).on('load',function(){
+            $('#modal').modal('show');
+        });
     </script>
 
     <!-- Embed.js - Typeform -->
