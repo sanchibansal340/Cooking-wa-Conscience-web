@@ -5,74 +5,22 @@
 }
 body {
     background-color: #ffd1dc;
-}
-#wrapper {
     overflow-x: hidden;
 }
-#sidebar-wrapper .list-group {
-  width: 15rem;
-  height: 100%;
-  position: fixed;
+.nav-link{
+  font-size: 1.2rem;
 }
-#page-content-wrapper {
-  min-width: 100vw;
+#home{
+  margin-top: 7em;
 }
-#wrapper.toggled #sidebar-wrapper {
-  margin-left: 0;
+.jumbotron{
+  height: 85vh;
 }
-.list-group {
-  display: flex;
-  justify-content: center;
-  border: 0.25px solid grey;
-}
-.list-group-flush>.list-group-item {
-  padding: 20px;
-  font-family: 'McLaren', cursive;
-  font-size: 20px;
-  color: black;
-  letter-spacing: 3px;
-}
-.list-group-flush>.list-group-item:hover {
-  background-color: #ffd1dc !important;
-}
-#navbar {
-  visibility: hidden;
-}
-.sidebar img{
-  height: 14em;
-  width: 14.85em;
-  margin: 0;
-}
-.navbar-brand img{
-  height: 5em;
-  width: 7em;
-}
-
-@media (min-width: 768px) {
-  #sidebar-wrapper {
-    margin-left: 0;
-  }
-  #page-content-wrapper {
-    min-width: 0;
-    width: 100%;
-  }
-  #wrapper.toggled #sidebar-wrapper {
-    margin-left: -15rem;
-  }
-  #about .card-img-top{
-    margin-top: 120px;
-  }
-  #join .card-img-top{
-    margin-top: 200px;
-  }
-}
-@media (max-width: 1024px) {
-  #navbar {
-    visibility: visible;
-  }
-  #sidebar-wrapper {
-    display: none;
-  }
+.bg-cover{
+  background-image: url("https://image.freepik.com/free-vector/vector-cartoon-illustration-various-vegetables-wooden-background_1441-519.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 /* -- Page Content -- */
@@ -93,9 +41,6 @@ body {
   font-family: 'Sacramento', cursive;
   word-spacing: 10px;
 }
-#home{
-  margin-top: 12em !important;
-}
 #about{
   max-height: 900px;
   margin-top: 10em !important;
@@ -114,7 +59,32 @@ body {
   padding-left: 0 !important;
   padding-right: 0 !important;
 }
+.footer-text{
+  font-size: 1.2rem;
+}
 
+@media (min-width: 200px) {
+  .home-text{
+    margin-top: 11rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .home-text{
+    margin-top: 20rem;
+  }
+}
+@media (min-width: 768px) {
+  #page-content-wrapper {
+    min-width: 0;
+    width: 100%;
+  }
+  #about .card-img-top{
+    margin-top: 120px;
+  }
+  #join .card-img-top{
+    margin-top: 200px;
+  }
+}
 @media (max-width: 768px) {
   .display-4 {
       font-size: 2rem;

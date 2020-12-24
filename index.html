@@ -30,7 +30,7 @@
 
 <body>
 
-    <!-- Modal -->
+    <!-- Modal 
     <div class="modal fade" 
         id="modal" 
         tabindex="-1" 
@@ -54,73 +54,48 @@
             </div>
         </div>
         </div>
-    </div>
+    </div> -->
 
-    <div class="d-flex" id="wrapper">
 
-        <!-- Sidebar -->
-        <div class="bg-white border-right" id="sidebar-wrapper" data-spy="affix" data-offset-top="205">
-        <div class="list-group list-group-flush">
-            <a class="sidebar" href="index.html">
-                <img src="./logo.jpg" alt="Cooking With a Conscience"> 
+        <!-- Navbar -->
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-white">
+            <a class="navbar-brand ml-4" href="cookingwithaconscience.org">
+                Cooking <br> with a <br> Conscience
             </a>
-            <a href="#home" class="list-group-item list-group-item-action bg-light">Home</a>
-            <a href="#about" class="list-group-item list-group-item-action bg-light">About Us</a>
-            <a href="#" class="list-group-item list-group-item-action bg-light">Upcoming Classes</a>
-            <a href="#" class="list-group-item list-group-item-action bg-light">Future Chapter Locations</a>
-            <a href="#join" class="list-group-item list-group-item-action bg-light">Join the Organisation</a>
-            <a href="#contact" class="list-group-item list-group-item-action bg-light">Contact Us</a>
-        </div>
-        </div>
-        <!-- /#sidebar-wrapper -->
-
-        <!-- Page Content -->
-        <div id="page-content-wrapper">
-
-        <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom fixed-top" id="navbar">
-            <a class="navbar-brand" href="index.html">
-                <img src="./logo.jpg" alt="Cooking With a Conscience"> 
-            </a>
-
-            <button 
-                class="navbar-toggler" 
-                type="button" 
-                data-toggle="collapse" 
-                data-target="#navbarSupportedContent" 
-                aria-controls="navbarSupportedContent" 
-                aria-expanded="false" 
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+            
+            <button class="navbar-toggler" type="button" 
+                data-toggle="collapse" data-target="#navbarNav" 
+                aria-controls="navbarNav" aria-expanded="false" 
+                aria-label="Toggle navigation"
+            >
+            <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-                    <li class="nav-item active"><a href="#home" class="nav-link">Home</a></li>
-                    <li class="nav-item"><a href="#about" class="nav-link">About Us</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Upcoming Classes</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Future Chapter Locations</a></li>
-                    <li class="nav-item"><a href="#join" class="nav-link">Join the Organisation</a></li>
-                    <li class="nav-item"><a href="#contact" class="nav-link">Contact Us</a></li>
-                </ul>
+            <div class="collapse navbar-collapse justify-content-end mr-auto" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item mr-5">
+                <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item mr-5">
+                <a class="nav-link" href="#about">About Us</a>
+                </li>
+                <li class="nav-item mr-5">
+                <a class="nav-link" href="#join">Join Us</a>
+                </li>
+                <li class="nav-item mr-5">
+                <a class="nav-link" href="#contact">Contact Us</a>
+                </li>
+            </ul>
             </div>
         </nav>
 
         <!-- Home -->
-        <div class="container-fluid">
-            <div class="card my-5" id="home">
-                <div class="row">
-                    <div class="col-md-1"></div>
-                    <div class="col-md-5 my-auto">
-                        <h2 class="h3-responsive text-center mt-4">
-                            Register for Online Class
-                        </h2>
-                    </div>
-                    <div class="col-md-6">
-                        <img 
-                            src="https://image.freepik.com/free-vector/focused-people-studying-online-school_74855-5834.jpg" 
-                            class="img-fluid mb-3 card-img-top" />
-                    </div>
-                    <a href="https://egutstadt.typeform.com/to/p7hEiAzy" target="_blank" class="stretched-link"></a>
+        <div class="container-fluid" id="home">
+            <div class="jumbotron bg-cover">
+                <div class="overlay"></div>
+                <div class="container text-center text-white home-text">
+                  <h1 class="mb-3 display-4">Welcome!</h1>
+                  <h1 class="display-4 mb-5">Let us teach you the art of cooking</h1>
                 </div>
             </div>
         </div>
@@ -239,8 +214,8 @@
                         </a>
                     </p>
                     
-                    <p class="text-center ml-n2 mt-5">
-                        Copyright &copy; 2020 | Cooking With a Conscience
+                    <p class="text-center ml-n2 mt-5 footer-text">
+                        Made with lots of &#10084; and 🍜 by <span class="font-weight-bold">Cooking with a Conscience</span> Team
                     </p>
                 </div>
             </div>
