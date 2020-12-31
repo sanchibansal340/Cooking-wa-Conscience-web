@@ -13,6 +13,9 @@ body {
 #home{
   margin-top: 7em;
 }
+.home-text {
+  font-family: 'Satisfy', cursive;
+}
 .jumbotron{
   height: 85vh;
 }
