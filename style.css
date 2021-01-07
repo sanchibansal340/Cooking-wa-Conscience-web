@@ -4,33 +4,29 @@
     scroll-behavior: smooth;
 }
 body {
-    background-color: #ffd1dc;
+    /* background-color: #FEE9E8; */
     overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
 }
 .nav-link{
   font-size: 1.2rem;
 }
 #home{
-  margin-top: 7em;
+  margin-top: 8em;
 }
-.home-text {
+.home-text h2 {
   font-family: 'Satisfy', cursive;
-}
-.jumbotron{
-  height: 85vh;
+  font-size: 2.5rem;
 }
 .bg-cover{
-  background-image: url("https://image.freepik.com/free-vector/vector-cartoon-illustration-various-vegetables-wooden-background_1441-519.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  background-color: #FEE9E8;
+  border-radius: 70px;
 }
 
 /* -- Page Content -- */
 .card {
-  max-width: 950px;
-  max-height: 400px;
   margin: 70px auto;
+  border-radius: 70px;
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
 }
 .h3-responsive{
@@ -50,6 +46,10 @@ body {
 }
 #join{
   margin-top: 10em !important;
+  background-color: #FEE9E8;
+}
+.heading{
+  font-weight: 600 !important;
 }
 #contact{
   background-color: #69afed;
@@ -58,24 +58,10 @@ body {
   width: 100%; 
   height: 400px;
 }
-.container-fluid{
-  padding-left: 0 !important;
-  padding-right: 0 !important;
-}
 .footer-text{
   font-size: 1.2rem;
 }
 
-@media (min-width: 200px) {
-  .home-text{
-    margin-top: 11rem;
-  }
-}
-@media (min-width: 768px) and (max-width: 1024px) {
-  .home-text{
-    margin-top: 20rem;
-  }
-}
 @media (min-width: 768px) {
   #page-content-wrapper {
     min-width: 0;
