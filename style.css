@@ -4,7 +4,6 @@
     scroll-behavior: smooth;
 }
 body {
-    /* background-color: #FEE9E8; */
     overflow-x: hidden;
     font-family: 'Poppins', sans-serif;
 }
@@ -48,9 +47,6 @@ body {
   margin-top: 10em !important;
   background-color: #FEE9E8;
 }
-.heading{
-  font-weight: 600 !important;
-}
 #contact{
   background-color: #69afed;
 }
@@ -60,6 +56,12 @@ body {
 }
 .footer-text{
   font-size: 1.2rem;
+}
+
+@media (max-width: 1024px) {
+  .center {
+    text-align: center;
+  }
 }
 
 @media (min-width: 768px) {
